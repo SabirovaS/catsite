@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир кошек - мои пушистые любимцы</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+            color: #3e3a3a;
+            background: #fdf2f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(200, 120, 140, 0.15);
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #b05a6e;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #c96a7e;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            border-bottom: 2px dashed #f0c8d2;
+            padding-bottom: 6px;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #a05060;
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            text-align: center;
+            font-style: italic;
+            color: #b08892;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 25px;
+            padding: 10px;
+            background: #fce8ec;
+            border-radius: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b05a6e;
+            font-weight: bold;
+            padding: 6px 14px;
+            border-radius: 15px;
+        }
+
+        nav a:hover {
+            background: #b05a6e;
+            color: #fff;
+        }
+
+        ul, ol {
+            margin-left: 22px;
+            margin-bottom: 12px;
+        }
+
+        figure {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(176, 90, 110, 0.15);
+        }
+
+        figcaption {
+            font-style: italic;
+            color: #b08892;
+            margin-top: 8px;
+            font-size: 0.9rem;
+        }
+
+        .quote {
+            background: #fdf0f3;
+            border-left: 5px solid #c96a7e;
+            padding: 14px 18px;
+            border-radius: 6px;
+            margin: 18px 0;
+            font-style: italic;
+            color: #8a5a68;
+        }
+
+        details {
+            background: #fdf0f3;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #f0c8d2;
+            margin: 18px 0;
+        }
+
+        summary {
+            font-weight: bold;
+            color: #b05a6e;
+            cursor: pointer;
+        }
+
+        details p {
+            margin-top: 10px;
+        }
+
+        mark {
+            background: #ffd9e2;
+            padding: 1px 4px;
+            border-radius: 3px;
+        }
+
+        aside {
+            margin-top: 30px;
+            padding: 20px;
+            background: #b05a6e;
+            color: #fff;
+            border-radius: 12px;
+        }
+
+        aside h2 {
+            color: #fff;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            margin-top: 0;
+        }
+
+        aside a {
+            color: #ffd9e2;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 2px dashed #f0c8d2;
+            text-align: center;
+            color: #b08892;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 18px; }
+            h1 { font-size: 1.6rem; }
+            nav ul { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Шапка -->
+    <header>
+        <h1>Мир кошек</h1>
+        <p class="tagline">• Мурчание • Лапки • Уют • Пушистое счастье</p>
+    </header>
+
+    <!-- Навигация -->
+    <nav>
+        <ul>
+            <li><a href="#about">О хобби</a></li>
+            <li><a href="#cats">Мои кошки</a></li>
+            <li><a href="#care">Уход</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- О хобби -->
+        <section id="about">
+            <h2>О хобби</h2>
+            <article>
+                <p>Кошки - это моя большая любовь и источник ежедневной радости. Я увлекаюсь всем, что связано с этими удивительными животными: наблюдаю за их повадками, читаю книги о породах и, конечно, провожу много времени со своими <strong>пушистыми любимцами</strong>.</p>
+                <div class="quote">
+                    «Кошка - это маленькое существо, которое делает дом теплее, а день - добрее».
+                </div>
+            </article>
+        </section>
+
+        <!-- Мои кошки -->
+        <section id="cats">
+            <h2>Мои кошки</h2>
+
+            <article>
+                <h3>Кто живёт со мной</h3>
+                <p>Дома у меня две кошки - <mark>совершенно разные по характеру</mark>. Одна спокойная и ласковая, вторая - настоящий исследователь и непоседа.</p>
+                <ul>
+                    <li>Мурка - трёхцветная, любит спать на подоконнике.</li>
+                    <li>Барсик - рыжий, обожает играть с мячиком.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Что я люблю в кошках</h3>
+                <ol>
+                    <li>Их мягкое мурчание.</li>
+                    <li>Забавные повадки и прыжки.</li>
+                    <li>То, как они сворачиваются клубочком рядом.</li>
+                </ol>
+            </article>
+
+            <details>
+                <summary>Почему кошки - идеальные компаньоны</summary>
+                <p>Кошки <strong>независимы</strong>, но при этом очень привязаны к хозяину. Они не требуют постоянного внимания, но всегда рядом, когда нужно тепло и уют. Это <em>идеальный баланс</em> для занятого человека.</p>
+            </details>
+        </section>
+
+        <!-- Уход -->
+        <section id="care">
+            <h2>Уход и забота:</h2>
+            <p>Несколько моментов о том, как я забочусь о своих кошках.</p>
+
+            <article>
+                <h3>Питание</h3>
+                <figure>
+                    <img src="images/catfood.jpg" width="800" height="400">
+                    <figcaption>Правильное питание - залог здоровья и блестящей шерсти. 
+                    Кошек необходимо кормить качественным промышленным кормом (сухим или влажным), где мясо - основной ингредиент. Нельзя давать молоко, лук, чеснок, шоколад, виноград и еду со стола.</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Игры и развлечения</h3>
+                <figure>
+                    <img src="images/catplay.jpg" width="800" height="400">
+                    <figcaption>Активные игры помогают кошкам оставаться здоровыми.
+                    Они любят игры с мячиками, перьями и игрушечными мышками, также полезны интерактивные игрушки и когтеточки, чтобы питомец не скучал.</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Отдых и уют</h3>
+                <figure>
+                    <img src="images/catsleep.jpg"  width="800" height="400">
+                    <figcaption>Кошки спят по 12–16 часов в сутки, поэтому им нужно тихое тёплое место - лежанка или плед. 
+                    Важно, чтобы место для отдыха было вдали от шума и сквозняков.</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+
+    <!-- Контакты -->
+    <aside id="contact">
+        <h2>Контакты</h2>
+        <p>Буду рада обменяться кошачьими историями и советами:</p>
+        <ul style="list-style: none; margin-left: 0;">
+            <li>📧 Email: <a href="mailto:cat.blog@mail.com">cat.blog@mail.com</a></li>
+            <li>🐾 Pinterest: <a href="https://pinterest.com" target="_blank" rel="noopener">pinterest.com/cat-notes</a></li>
+        </ul>
+    </aside>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2026 Мир кошек. Сделано с любовью к пушистым лапкам.</p>
+    </footer>
+</div>
+
+</body>
+</html>
